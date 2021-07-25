@@ -1,11 +1,12 @@
 import styles from './styles.module.scss';
 import { LogoPng } from '../../assets/index.js';
+import { Text } from '../index.js';
 import { Link } from 'react-router-dom';
 
 const NavLink = (props) => {
   return (
     <Link to={{pathname: props.to}}>
-      <a>{props.text}</a>
+      <Text>{props.text}</Text>
     </Link>
   )
 }
