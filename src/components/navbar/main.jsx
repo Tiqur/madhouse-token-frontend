@@ -1,4 +1,5 @@
 import styles from './styles.module.scss';
+import { LogoPng } from '../../assets/index.js';
 import { Link } from 'react-router-dom';
 
 const NavLink = (props) => {
@@ -14,6 +15,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.inner_container}>
         <div className={styles.logo_container}>
+          <img src={LogoPng} className={styles.logo} alt='logo'/>
           <p>MADHOUSE</p>
         </div>
         <div className={styles.nav_links_container}>
