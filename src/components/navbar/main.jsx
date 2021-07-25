@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const NavLink = (props) => {
   return (
     <Link to={{pathname: props.to}}>
-      <Text>{props.text}</Text>
+      <Text size={1.6}>{props.text}</Text>
     </Link>
   )
 }
@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className={styles.inner_container}>
         <div className={styles.title_container}>
           <img src={LogoPng} className={styles.logo} alt='logo'/>
-          <Text size={5} _style='italic' margin='0 0 0 0.15em' weight='bold' family='Barlow Condensed'>MADHOUSE</Text>
+          <Text size={4.5} _style='italic' margin='0 0 0 0.15em' weight='bold' family='Barlow Condensed'>MADHOUSE</Text>
         </div>
         <div className={styles.nav_links_container}>
           <NavLink to='/' text='Home'/>
