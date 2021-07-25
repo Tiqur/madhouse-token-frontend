@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className={styles.inner_container}>
         <div className={styles.title_container}>
           <img src={LogoPng} className={styles.logo} alt='logo'/>
-          <Text size={5} margin='0 0 0 0.15em' weight='bold' family='Barlow Condensed'>MADHOUSE</Text>
+          <Text size={5} _style='italic' margin='0 0 0 0.15em' weight='bold' family='Barlow Condensed'>MADHOUSE</Text>
         </div>
         <div className={styles.nav_links_container}>
           <NavLink to='/home' text='Home'/>
