@@ -12,14 +12,16 @@ const NavLink = (props) => {
 const Navbar = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.logo_container}>
-        <p>MADHOUSE</p>
-      </div>
-      <div className={styles.nav_links_container}>
-        <NavLink to='/home' text='Home'/>
-        <NavLink to='/about' text='About'/>
-        <NavLink to='/charts' text='Charts'/>
-        <NavLink to='/whitepaper' text='Whitepaper'/>
+      <div className={styles.inner_container}>
+        <div className={styles.logo_container}>
+          <p>MADHOUSE</p>
+        </div>
+        <div className={styles.nav_links_container}>
+          <NavLink to='/home' text='Home'/>
+          <NavLink to='/about' text='About'/>
+          <NavLink to='/charts' text='Charts'/>
+          <NavLink to='/whitepaper' text='Whitepaper'/>
+        </div>
       </div>
     </div>
   )
