@@ -1,8 +1,13 @@
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { HomePage } from './pages/index.js';
 
 function App() {
   return (
-    <HomePage/>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path='/' component={HomePage}/>
+      </Switch>
+    </BrowserRouter>
   );
 }
 
