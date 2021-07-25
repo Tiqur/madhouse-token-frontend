@@ -14,8 +14,11 @@
 }
 
 .hero_container {
+  position: absolute;
+  justify-content: center;
   display: flex;
   width: 100%;
+  left: 0;
   height: 35em;
   align-items: center;
   background: linear-gradient(320deg, rgba(37,5,5,1) 0%, rgba(141,20,20,1) 100%);
