@@ -1,7 +1,8 @@
+import { HomePage } from './pages/index.js';
 
 function App() {
   return (
-    <p/>
+    <HomePage/>
   );
 }
 
