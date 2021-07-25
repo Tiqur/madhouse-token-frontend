@@ -20,7 +20,7 @@ const Navbar = () => {
           <Text size={5} _style='italic' margin='0 0 0 0.15em' weight='bold' family='Barlow Condensed'>MADHOUSE</Text>
         </div>
         <div className={styles.nav_links_container}>
-          <NavLink to='/home' text='Home'/>
+          <NavLink to='/' text='Home'/>
           <NavLink to='/about' text='About'/>
           <NavLink to='/charts' text='Charts'/>
           <NavLink to='/whitepaper' text='Whitepaper'/>

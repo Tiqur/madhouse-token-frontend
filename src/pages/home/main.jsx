@@ -1,6 +1,8 @@
+import styles from './syles.module.scss';
+
 const HomePage = () => {
   return (
-    <p/>
+    <div className={styles.main_container}/>
   )
 }
 
