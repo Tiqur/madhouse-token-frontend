@@ -15,10 +15,10 @@ const Navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.inner_container}>
-        <div className={styles.title_container}>
+        <Link className={styles.title_container} to={{pathname: '/'}}>
           <img src={LogoPng} className={styles.logo} alt='logo'/>
           <Text size={4.5} _style='italic' margin='0 0 0 0.15em' weight='bold' family='Barlow Condensed'>MADHOUSE</Text>
-        </div>
+        </Link>
         <div className={styles.nav_links_container}>
           <NavLink to='/' text='Home'/>
           <NavLink to='/about' text='About'/>
