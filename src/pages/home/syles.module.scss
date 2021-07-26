@@ -8,12 +8,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2em;
+  width: 90%;
+
+  @media screen and (min-width: 1800px) {
+    width: 1700px;
+  }
 }
 
 .content_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background: #28272D;
   width: 100%;
@@ -40,12 +44,23 @@
 
 .hero_container {
   margin-top: 6em;
-  justify-content: center;
   display: flex;
-  width: 100%;
+  justify-content: center;
   padding: 6em 0 6em 0;
   align-items: center;
   background: linear-gradient(320deg, rgba(37,5,5,1) 0%, rgba(141,20,20,1) 100%);
+}
+
+.inner_hero_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+
+  @media screen and (min-width: 1800px) {
+    width: 1700px;
+  }
+
 }
 
 // Tablet
