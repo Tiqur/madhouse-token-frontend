@@ -1,6 +1,7 @@
 import styles from './syles.module.scss';
-import { Text, Navbar } from '../../components/index.js';
+import { Text, Navbar, InfoIcon } from '../../components/index.js';
 import { LogoPng } from '../../assets/index.js';
+import { DropSvg, MoneySvg, VaultSvg } from '../../assets/index.js';
 
 const HomePage = () => {
   return (
@@ -16,8 +17,15 @@ const HomePage = () => {
       </div>
 
       <div className={styles.content_container}>
+        <InfoIcon src={DropSvg} info='Liquidity:' value='223,912'/>
+        <InfoIcon src={MoneySvg} info='Market Cap:' value='$653,301'/>
+        <InfoIcon src={VaultSvg} info='Supply:' value='1,000,000,000'/>
+      </div>
+
+      <div className={styles.content_container}>
     
       </div>
+
     </div>
   )
 }
