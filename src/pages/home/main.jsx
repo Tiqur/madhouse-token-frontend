@@ -6,7 +6,10 @@ import { DropSvg, MoneySvg, VaultSvg } from '../../assets/index.js';
 const Section = (props) => {
   return (
     <div className={styles.content_container}>
-      <Text>{props.title}</Text>
+      <div className={styles.section_container}>
+        <Text margin='0 0 2em 0' size={4}>{props.title}</Text>
+        {props.children}
+      </div>
     </div>
   )
 }
@@ -30,9 +33,10 @@ const HomePage = () => {
           <InfoIcon src={VaultSvg} info='Supply:' value='1,000,000,000'/>
       </div>
 
-      <div className={styles.content_container}>
-    
-      </div>
+      <Section title='About'>
+        <Text>Lorem ipsum damet, consectetur adipiscing Cras augue arcu, luctus in massa quis, efficitur faucibus magna. Vivamus volutpat lacus at elit tempor faucibus.   Phasellus iaculis consequat libero, a malesuada nulla viverra inLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue arcu, luctus in massa quis, efficitur faucibus magna. Vivamus volutpat lacus at elit tempor faucibus.   PLorem ipLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue arcu, luctus in massa quis, efficitur faucibus magna. Vivamus volutpat lacus at elit tempor faucibus.   Phasellus iaculis consequat libero, a malesuada nulla viverra insum dolor sit amet, consectetur adipiscing elit. Cras augue arcu</Text>
+      </Section>
+
 
     </div>
   )

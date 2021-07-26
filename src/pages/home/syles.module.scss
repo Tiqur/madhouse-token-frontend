@@ -3,6 +3,14 @@
   flex-direction: column;
 }
 
+.section_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+}
+
 .content_container {
   display: flex;
   justify-content: space-around;
