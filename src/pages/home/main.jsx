@@ -1,5 +1,5 @@
 import styles from './syles.module.scss';
-import { Text, Navbar, InfoIcon, Section} from '../../components/index.js';
+import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.js';
 import { LogoPng } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg } from '../../assets/index.js';
 
@@ -30,7 +30,7 @@ const HomePage = () => {
         <Text>Lorem ipsum damet, consectetur adipiscing Cras augue arcu, luctus in massa quis, efficitur faucibus magna. Vivamus volutpat lacus at elit tempor faucibus.   Phasellus iaculis consequat libero, a malesuada nulla viverra inLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue arcu, luctus in massa quis, efficitur faucibus magna. Vivamus volutpat lacus at elit tempor faucibus.   PLorem ipLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue arcu, luctus in massa quis, efficitur faucibus magna. Vivamus volutpat lacus at elit tempor faucibus.   Phasellus iaculis consequat libero, a malesuada nulla viverra insum dolor sit amet, consectetur adipiscing elit. Cras augue arcu</Text>
       </Section>
 
-
+      <Footer/>
     </div>
   )
 }
