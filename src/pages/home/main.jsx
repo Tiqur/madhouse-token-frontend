@@ -11,7 +11,7 @@ const HomePage = () => {
           <Text family='League Spartan Bold' size={5.5}>The Madhouse Token</Text>
           <Text size={2} family='Inter'>THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.</Text>
         </div>
-        <img src={LogoPng} style={{marginRight: '4em', height: '400px', width: '400px'}} alt='logo'/>
+        <img src={LogoPng} className={styles.hero_logo} alt='hero_logo'/>
       </div>
     </div>
   )
