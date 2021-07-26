@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #28272D;
+  width: 100%;
+  padding: 6em 0 6em 0;
+  margin-top: 16em;
+}
+
+.section_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+
+  @media screen and (min-width: 1800px) {
+    width: 1700px;
+  }
+}

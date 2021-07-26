@@ -3,18 +3,6 @@
   flex-direction: column;
 }
 
-.section_container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 90%;
-
-  @media screen and (min-width: 1800px) {
-    width: 1700px;
-  }
-}
-
 .content_container {
   display: flex;
   justify-content: center;
