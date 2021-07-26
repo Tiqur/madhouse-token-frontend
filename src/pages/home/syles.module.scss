@@ -3,16 +3,6 @@
   flex-direction: column;
 }
 
-.content_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #28272D;
-  width: 100%;
-  padding: 6em 0 6em 0;
-  margin-top: 16em;
-}
-
 .hero_logo {
   width: 400px;
   height: 400px;
@@ -58,9 +48,6 @@
   .hero_container {
     padding: 4em 0 4em 0;
   }
-  .content_container {
-    margin-top: 14;
-  }
   .hero_text {
     & :nth-child(1) {
       font-size: 5ch !important;
@@ -84,10 +71,6 @@
   .hero_container {
     padding: 3em 0 3em 0;
   }
-  .content_container {
-    margin-top: 12em;
-    padding: 4em 0 4em 0;
-  }
   .hero_text {
     & :nth-child(1) {
       font-size: 4.5ch !important;
@@ -108,10 +91,6 @@
     width: 200px !important;
   }
   .hero_container {
-    padding: 2em 0 2em 0;
-  }
-  .content_container {
-    margin-top: 9em;
     padding: 2em 0 2em 0;
   }
   .hero_text {
@@ -136,9 +115,6 @@
   .hero_container {
     height: 13em;
     padding: 0.3em 0 0.3em 0;
-  }
-  .content_container {
-    margin-top: 5em;
   }
   .hero_text {
     & :nth-child(1) {

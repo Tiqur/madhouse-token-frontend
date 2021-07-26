@@ -19,3 +19,31 @@
     width: 1700px;
   }
 }
+
+@media screen and (max-width: 970px) {
+  .container {
+    margin-top: 14;
+  }
+}
+
+// Phone
+@media screen and (max-width: 740px) {
+  .container {
+    margin-top: 12em;
+    padding: 4em 0 4em 0;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .container {
+    margin-top: 9em;
+    padding: 2em 0 2em 0;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .container {
+    margin-top: 5em;
+  }
+}
+
