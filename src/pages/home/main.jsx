@@ -7,7 +7,9 @@ const Section = (props) => {
   return (
     <div className={styles.content_container}>
       <div className={styles.section_container}>
-        <Text margin='0 0 2em 0' size={4}>{props.title}</Text>
+        {props.title && 
+          <Text margin='0 0 1.5em 0' size={4}>{props.title}</Text>
+        }
         {props.children}
       </div>
     </div>
