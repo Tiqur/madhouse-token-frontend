@@ -25,7 +25,7 @@
   justify-content: center;
   display: flex;
   width: 100%;
-  height: 35em;
+  padding: 6em 0 6em 0;
   align-items: center;
   background: linear-gradient(320deg, rgba(37,5,5,1) 0%, rgba(141,20,20,1) 100%);
 }
@@ -37,7 +37,7 @@
     width: 300px !important;
   }
   .hero_container {
-    height: 27em;
+    padding: 4em 0 4em 0;
   }
   .hero_text {
     & :nth-child(1) {
@@ -60,7 +60,7 @@
     width: 250px !important;
   }
   .hero_container {
-    height: 22em;
+    padding: 2em 0 2em 0;
   }
   .hero_text {
     & :nth-child(1) {
@@ -105,6 +105,7 @@
   }
   .hero_container {
     height: 13em;
+    padding: 0.4em 0 0.4em 0;
   }
   .hero_text {
     & :nth-child(1) {
@@ -124,5 +125,5 @@
 .content_container {
   background: #28272D;
   width: 100%;
-  padding: 4em 0 4em 0;
+  padding: 6em 0 6em 0;
 }
