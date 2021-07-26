@@ -14,6 +14,10 @@ const HomePage = () => {
         </div>
         <img src={LogoPng} className={styles.hero_logo} alt='hero_logo'/>
       </div>
+
+      <div className={styles.content_container}>
+    
+      </div>
     </div>
   )
 }
