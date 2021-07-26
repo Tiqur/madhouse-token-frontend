@@ -5,11 +5,9 @@ import { HomePage } from './pages/index.js';
 function App() {
   return (
     <BrowserRouter>
-      <Layout>
-        <Switch>
-          <Route exact path='/' component={HomePage}/>
-        </Switch>
-      </Layout>
+      <Switch>
+        <Route exact path='/' component={HomePage}/>
+      </Switch>
     </BrowserRouter>
   );
 }

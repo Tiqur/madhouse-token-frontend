@@ -1,10 +1,11 @@
 import styles from './syles.module.scss';
-import { Text } from '../../components/index.js';
+import { Text, Navbar } from '../../components/index.js';
 import { LogoPng } from '../../assets/index.js';
 
 const HomePage = () => {
   return (
     <div className={styles.main_container}>
+      <Navbar/>
       <div className={styles.hero_container}>
         <div className={styles.hero_text}>
           <Text family='League Spartan Bold' size={7}>Introducing:</Text>
