@@ -7,3 +7,29 @@
     margin-bottom: 0.8em;
   }
 }
+
+.icon {
+  width: 14em;
+  height: 14em;
+}
+
+@media screen and (max-width: 970px) {
+  .icon {
+    width: 10em;
+    height: 10em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    width: 8em;
+    height: 8em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .icon {
+    width: 6em;
+    height: 6em;
+  }
+}
