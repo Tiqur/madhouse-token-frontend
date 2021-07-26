@@ -1,5 +1,5 @@
 import styles from './syles.module.scss';
-import { Text, Navbar, InfoIcon, Layout } from '../../components/index.js';
+import { Text, Navbar, InfoIcon } from '../../components/index.js';
 import { LogoPng } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg } from '../../assets/index.js';
 
