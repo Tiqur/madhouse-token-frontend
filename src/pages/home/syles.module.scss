@@ -28,13 +28,11 @@
 .hero_logo {
   width: 400px;
   height: 400px;
-  margin-right: 4em;
 }
 
 .hero_text {
   display: flex;
   flex-direction: column;
-  margin-left: 4em;
 
   // To make the second line appear directly under first line
   & :nth-child(2) {
