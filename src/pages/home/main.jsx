@@ -3,6 +3,14 @@ import { Text, Navbar, InfoIcon, Layout } from '../../components/index.js';
 import { LogoPng } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg } from '../../assets/index.js';
 
+const Section = (props) => {
+  return (
+    <div className={styles.content_container}>
+      <Text>{props.title}</Text>
+    </div>
+  )
+}
+
 const HomePage = () => {
   return (
     <div className={styles.main_container}>
