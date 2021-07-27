@@ -7,6 +7,7 @@ export {ReactComponent as ArrowSvg} from './arrow.svg';
 export {ReactComponent as DropSvg} from './drop.svg';
 export {ReactComponent as MoneySvg} from './money.svg';
 export {ReactComponent as VaultSvg} from './vault.svg';
+export {ReactComponent as TokenomicsSvg} from './tokenomics.svg';
 export {default as LogoPng} from './logo.png';
 export {default as SpinningCoinMP4} from './spinning_coin.mp4';
 export {default as WhitepaperPdf} from './whitepaper.pdf';
