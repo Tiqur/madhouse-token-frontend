@@ -3,6 +3,24 @@
   flex-direction: column;
 }
 
+.tokenomics_svg {
+  height: 20em;
+}
+
+.tokenomics_container {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tokenomics_list {
+  color: #D7D7D7;
+  font-family: Open Sans;
+  list-style-type: circle;
+}
+
 .hero_logo {
   width: 400px;
   height: 400px;
