@@ -9,15 +9,8 @@
 }
 
 .icon {
-  width: 14em;
-  height: 14em;
-}
-
-@media screen and (max-width: 970px) {
-  .icon {
-    width: 10em;
-    height: 10em;
-  }
+  width: 10em;
+  height: 10em;
 }
 
 @media screen and (max-width: 630px) {
