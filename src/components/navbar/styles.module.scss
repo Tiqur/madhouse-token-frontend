@@ -2,6 +2,17 @@
   display: none;
 }
 
+.hamburger_link {
+  padding: 1em;
+  margin-top: 1em;
+  text-decoration: none;
+  user-select: none;
+
+  & :hover {
+    background: #252526;
+  }
+}
+
 .container {
   position: fixed;
   justify-content: center;
@@ -11,6 +22,27 @@
   height: 6em;
   background: #1E1D21;
   user-select: none;
+}
+
+.side_menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 300px;
+  right: 0;
+  top: 0;
+  background: #1E1D21;
+}
+
+.menu_overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .inner_container {

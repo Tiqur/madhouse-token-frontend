@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 const NavLink = (props) => {
   return (
-    <Link to={{pathname: props.to}}>
+    <Link to={{pathname: props.to}} className={props.className}>
       <Text size={1.6}>{props.text}</Text>
     </Link>
   )
@@ -30,7 +30,14 @@ const Navbar = () => {
           <NavLink to='/whitepaper' text='Whitepaper'/>
         </div>
         <div className={styles.hamburger}>
-        <Hamburger isOpen={hamburger} menuClicked={() => setHamburger(!hamburger)} color='#D7D7D7'/>
+          <Hamburger isOpen={hamburger} menuClicked={() => setHamburger(!hamburger)} color='#D7D7D7'/>
+          <div className={styles.menu_overlay}/>
+          <div className={styles.side_menu}>
+            <NavLink className={styles.hamburger_link} to='/' text='Home'/>
+            <NavLink className={styles.hamburger_link} to='/about' text='About'/>
+            <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
+            <NavLink className={styles.hamburger_link} to='/whitepaper' text='Whitepaper'/>
+          </div>
         </div>
       </div>
     </div>
