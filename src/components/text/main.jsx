@@ -9,7 +9,7 @@ const Text = (props) => {
       fontFamily: props.family ? props.family : 'Open Sans',
       padding: props.padding ? props.padding : 'initial',
       margin: props.margin ? props.margin : 'initial'
-    }, ...props.style}} children={props.children} id={props.id}/>
+    }, ...props.style}} className={props.className} children={props.children} id={props.id}/>
   )
 }
 

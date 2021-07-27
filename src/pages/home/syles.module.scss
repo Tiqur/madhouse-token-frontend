@@ -27,6 +27,23 @@
   background: linear-gradient(320deg, rgba(37,5,5,1) 0%, rgba(141,20,20,1) 100%);
 }
 
+.hero_buttons_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1.5em;
+
+  & * {
+    text-decoration: none;
+    white-space: nowrap;
+  }
+}
+
+.hero_button {
+  padding: 0.8em 4em;
+  margin-right: 3em;
+}
+
 .inner_hero_container {
   display: flex;
   justify-content: space-between;
