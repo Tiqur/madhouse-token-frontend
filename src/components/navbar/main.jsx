@@ -2,7 +2,8 @@ import styles from './styles.module.scss';
 import { LogoPng } from '../../assets/index.js';
 import { Text } from '../index.js';
 import { Link } from 'react-router-dom';
-import Hamburger from 'hamburger-react';
+import Hamburger from 'react-hamburger-menu';
+import { useState } from 'react';
 
 const NavLink = (props) => {
   return (
@@ -13,6 +14,8 @@ const NavLink = (props) => {
 }
 
 const Navbar = () => {
+  const [hamburger, setHamburger] = useState(false);
+
   return (
     <div className={styles.container}>
       <div className={styles.inner_container}>
@@ -27,7 +30,7 @@ const Navbar = () => {
           <NavLink to='/whitepaper' text='Whitepaper'/>
         </div>
         <div className={styles.hamburger}>
-          <Hamburger color='#D7D7D7' toggled={false} size={42} />
+        <Hamburger isOpen={hamburger} menuClicked={() => setHamburger(!hamburger)} color='#D7D7D7'/>
         </div>
       </div>
     </div>
