@@ -31,13 +31,17 @@ const Navbar = () => {
         </div>
         <div className={styles.hamburger}>
           <Hamburger isOpen={hamburger} menuClicked={() => setHamburger(!hamburger)} color='#D7D7D7'/>
-          <div className={styles.menu_overlay}/>
-          <div className={styles.side_menu}>
-            <NavLink className={styles.hamburger_link} to='/' text='Home'/>
-            <NavLink className={styles.hamburger_link} to='/about' text='About'/>
-            <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
-            <NavLink className={styles.hamburger_link} to='/whitepaper' text='Whitepaper'/>
-          </div>
+          {hamburger &&  
+            <>
+              <div className={styles.menu_overlay} onClick={() => {setHamburger(false)}}/>
+              <div className={styles.side_menu}>
+                <NavLink className={styles.hamburger_link} to='/' text='Home'/>
+                <NavLink className={styles.hamburger_link} to='/about' text='About'/>
+                <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
+                <NavLink className={styles.hamburger_link} to='/whitepaper' text='Whitepaper'/>
+              </div>
+            </>
+          }
         </div>
       </div>
     </div>
