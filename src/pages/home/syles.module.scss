@@ -32,7 +32,6 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 1.5em;
 
   & * {
     text-decoration: none;
@@ -41,6 +40,7 @@
 }
 
 .hero_button {
+  margin-top: 1.5em;
   padding: 0.8em 4em;
   margin-right: 3em;
 }
@@ -78,6 +78,9 @@
       font-size: 2ch !important;
     }
   } 
+  .hero_button {
+    font-size: 1.2ch !important;
+  }
 }
 
 // Phone
@@ -101,6 +104,9 @@
       font-size: 1.5ch !important;
     }
   } 
+  .hero_button {
+    font-size: 1ch !important;
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -123,6 +129,9 @@
       font-size: 1ch !important;
     }
   } 
+  .hero_button {
+    font-size: 0.8ch !important;
+  }
 }
 
 @media screen and (max-width: 530px) {
@@ -146,6 +155,9 @@
       font-size: 0.5ch !important;
     }
   } 
+  .hero_button {
+    font-size: 0.6ch !important;
+  }
 }
 
 
