@@ -2,6 +2,7 @@ import styles from './styles.module.scss';
 import { LogoPng } from '../../assets/index.js';
 import { Text } from '../index.js';
 import { Link } from 'react-router-dom';
+import Hamburger from 'hamburger-react';
 
 const NavLink = (props) => {
   return (
@@ -24,6 +25,9 @@ const Navbar = () => {
           <NavLink to='/about' text='About'/>
           <NavLink to='/charts' text='Charts'/>
           <NavLink to='/whitepaper' text='Whitepaper'/>
+        </div>
+        <div className={styles.hamburger}>
+          <Hamburger color='#D7D7D7' toggled={false} size={42} />
         </div>
       </div>
     </div>
