@@ -42,7 +42,7 @@ const HomePage = () => {
             <div className={styles.hero_text}>
               <Text family='League Spartan Bold' size={7}>Introducing:</Text>
               <Text family='League Spartan Bold' size={5.5}>The Madhouse Token</Text>
-              <Text size={2} family='Inter'>THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.</Text>
+              <Text size={2} family='Inter'>MADE FOR INVESTORS, BY INVESTORS</Text>
             </div>
             <div className={styles.hero_buttons_container}>
               <HeroButton to='/' text='Whitepaper'/>

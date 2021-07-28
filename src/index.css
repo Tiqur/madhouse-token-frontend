@@ -4,16 +4,3 @@ body {
   background: #1E1D21;
   text-align: center;
 }
-
-/*****************************
- All rights reserved.
- AllFont.de (c) 2011-2015
- *****************************/
-@font-face {
-    font-family: 'League Spartan Bold';
-    font-style: normal;
-    font-weight: 700;
-    src: local('League Spartan Bold'), local('LeagueSpartan-Bold'),
-        url(http://allfont.de/cache/fonts/league-spartan_96d155934eb746bc55706f1589b67f14.woff) format('woff'),
-        url(http://allfont.de/cache/fonts/league-spartan_96d155934eb746bc55706f1589b67f14.ttf) format('truetype');
-}
