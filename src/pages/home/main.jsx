@@ -80,9 +80,12 @@ const HomePage = () => {
       <Section>
         <Timeline theme={roadmap_theme}>
           <Events>
-            <TextEvent date='Date 1' text='Text Element 1' />
-            <TextEvent date='Date 2' text='Text Element 2' />
-            <TextEvent date='Date 3' text='Text Element 3' />
+            <TextEvent date='Q3 2021' text='Presale, Launch, Marketing, Audit' />
+            <TextEvent date='Q4 2021' text='2500 wallet holders, Coinmarketcap / Coingecko listing' />
+            <TextEvent date='Q1 2022' text='Change sales tax TBD, get listed on Bitmart, and a second big marketing push' />
+            <TextEvent date='Q2 2022' text='Change sales tax TBD, get listed with other exchanges' />
+            <TextEvent date='Q3 2022' text='Reach out to binance, Coinbase, HitBTC, and other popular exchanges' />
+            <TextEvent date='Q4 2022' text='Welcome to the moon!' />
           </Events>
         </Timeline>
       </Section>
