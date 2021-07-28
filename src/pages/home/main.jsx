@@ -24,11 +24,11 @@ const roadmap_theme = createTheme(themes.default, {
 
 const HeroButton = (props) => {
   return (
-    <div className={styles.hero_button} style={{background: props.primary ? '#B0191A' : '#21272D'}}>
-      <Link to={{pathname: props.to}}>
-        <Text color='#D7D7D7'>{props.text}</Text>
-      </Link>
-    </div>
+    <Link to={{pathname: props.to}}>
+      <div className={styles.hero_button} style={{background: props.primary ? '#B0191A' : '#21272D'}}>
+          <Text color='#D7D7D7'>{props.text}</Text>
+      </div>
+    </Link>
   )
 }
 
