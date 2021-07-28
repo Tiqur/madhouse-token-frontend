@@ -49,13 +49,12 @@ const HomePage = () => {
 
       <Section title='Tokenomics'>
         <div className={styles.tokenomics_container}>
-          <TokenomicsSvg className={styles.tokenomics_svg}/>
+          <TokenomicsSvg fill='#7C7C7C' className={styles.tokenomics_svg}/>
           <ul className={styles.tokenomics_list}>
-            <li>Example Tokenomic</li>
-            <li>Example Tokenomic</li>
-            <li>Example Tokenomic</li>
-            <li>Example Tokenomic</li>
-            <li>Example Tokenomic</li>
+            <li><span className={styles.dot}/>Example Tokenomic</li>
+            <li><span className={styles.dot}/>Example Tokenomic</li>
+            <li><span className={styles.dot}/>Example Tokenomic</li>
+            <li><span className={styles.dot}/>Example Tokenomic</li>
           </ul>
         </div>
       </Section>

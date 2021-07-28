@@ -9,16 +9,30 @@
 
 .tokenomics_container {
   display: flex;
-  width: 50%;
+  width: 60%;
   height: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #A10000;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
+
 .tokenomics_list {
   color: #D7D7D7;
   font-family: Open Sans;
-  list-style-type: circle;
+  list-style-type: none;
+  font-size: 1.8ch;
+
+  & li {
+    margin-top: 0.8em;
+  }
 }
 
 .hero_logo {
