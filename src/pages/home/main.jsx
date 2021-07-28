@@ -3,6 +3,7 @@ import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.
 import { LogoPng } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg, TokenomicsSvg } from '../../assets/index.js';
 import { Link } from 'react-router-dom';
+import { Timeline, Events, TextEvent } from '@merc/react-timeline';
 
 const HeroButton = (props) => {
   return (
@@ -58,6 +59,17 @@ const HomePage = () => {
           </ul>
         </div>
       </Section>
+      
+      <Section>
+        <Timeline>
+          <Events>
+            <TextEvent date='Date 1' text='Text Element 1' />
+            <TextEvent date='Date 2' text='Text Element 2' />
+            <TextEvent date='Date 3' text='Text Element 3' />
+          </Events>
+        </Timeline>
+      </Section>
+
       <Footer/>
     </div>
   )
