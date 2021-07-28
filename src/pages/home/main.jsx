@@ -3,7 +3,24 @@ import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.
 import { LogoPng } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg, TokenomicsSvg } from '../../assets/index.js';
 import { Link } from 'react-router-dom';
-import { Timeline, Events, TextEvent } from '@merc/react-timeline';
+import { Timeline, Events, TextEvent, themes, createTheme } from '@merc/react-timeline';
+
+const roadmap_theme = createTheme(themes.default, {
+  timelineTrack: {
+    backgroundColor: '#686868'
+  },
+  date: {
+    backgroundColor: '#740000'
+  },
+  marker: {
+    borderColor: '#686868',
+    backgroundColor: '#740000'
+  },
+  card: {
+    backgroundColor: '#46454B',
+    color: '#CDCDCD'
+  }
+})
 
 const HeroButton = (props) => {
   return (
@@ -61,7 +78,7 @@ const HomePage = () => {
       </Section>
       
       <Section>
-        <Timeline>
+        <Timeline theme={roadmap_theme}>
           <Events>
             <TextEvent date='Date 1' text='Text Element 1' />
             <TextEvent date='Date 2' text='Text Element 2' />
