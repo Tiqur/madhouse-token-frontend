@@ -22,8 +22,8 @@ const Footer = () => {
       <div className={styles.socials}>
         <Icon icon={DiscordSvg} to='https://discord.gg/vxpsRRX4jj'/>
         <Icon icon={YoutubeSvg} to='https://www.youtube.com/channel/UCNXUmJLdKoe6cAqyaseVoyA'/>
-        <Icon icon={TwitterSvg} to='https://twitter.com/MadhouseMarkus'/>
-        <Icon icon={TelegramSvg} to='https://t.me/joinchat/sQqxmQIya-IwYTkx'/>
+        <Icon icon={TwitterSvg} to='https://twitter.com/MadHouseToken'/>
+        <Icon icon={TelegramSvg} to='https://t.me/MadHouseToken'/>
       </div>
       <div className={styles.links}>
         <BrowserRouter>
