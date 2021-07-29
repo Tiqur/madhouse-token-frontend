@@ -37,8 +37,9 @@ const Navbar = () => {
             <>
               <div className={styles.menu_overlay} onClick={() => {setHamburger(false)}}/>
               <div className={styles.side_menu}>
-                <NavLink className={styles.hamburger_link} to='/' text='Home'/>
-                <NavLink className={styles.hamburger_link} to='/about' text='About'/>
+                <NavLink className={styles.hamburger_link} to='/#home' text='Home'/>
+                <NavLink className={styles.hamburger_link} to='/#about' text='About'/>
+                <NavLink className={styles.hamburger_link} to='/#socials' text='Socials'/>
                 <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
                 <NavLink className={styles.hamburger_link} to='/whitepaper' text='Whitepaper'/>
               </div>
