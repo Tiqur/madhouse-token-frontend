@@ -3,9 +3,7 @@ import { Text, Section } from '../index.js';
 import { BrowserRouter, Link } from 'react-router-dom';
 import {
   DiscordSvg, 
-  InstaSvg, 
   TelegramSvg,
-  RedditSvg,
   TwitterSvg 
 } from '../../assets/index.js';
 
@@ -21,11 +19,9 @@ const Footer = () => {
   return (
     <Section id='socials'>
       <div className={styles.socials}>
-        <Icon icon={DiscordSvg} to=''/>
-        <Icon icon={RedditSvg} to=''/>
-        <Icon icon={TwitterSvg} to=''/>
-        <Icon icon={InstaSvg} to=''/>
-        <Icon icon={TelegramSvg} to=''/>
+        <Icon icon={DiscordSvg} to='https://discord.gg/vxpsRRX4jj'/>
+        <Icon icon={TwitterSvg} to='https://twitter.com/MadhouseMarkus'/>
+        <Icon icon={TelegramSvg} to='https://t.me/joinchat/sQqxmQIya-IwYTkx'/>
       </div>
       <div className={styles.links}>
         <BrowserRouter>
