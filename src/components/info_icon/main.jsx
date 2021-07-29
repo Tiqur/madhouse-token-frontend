@@ -5,7 +5,7 @@ const InfoIcon = (props) => {
   return (
     <div className={styles.icon_container}>
       <props.src className={styles.icon} fill='#7C7C7C'/>
-      <Text size={2.2} color='#7C7C7C'>{props.info}</Text>
+      <Text size={2.2} color='#D7D7D7'>{props.info}</Text>
       <Text>{props.value}</Text>
     </div>
   )
