@@ -55,8 +55,8 @@ const HomePage = () => {
 
       <Section>
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%'}}>
-          <InfoIcon src={DropSvg} info='Liquidity:' value='223,912'/>
-          <InfoIcon src={MoneySvg} info='Market Cap:' value='$653,301'/>
+          <InfoIcon src={DropSvg} info='Liquidity:' value='N/A'/>
+          <InfoIcon src={MoneySvg} info='Market Cap:' value='N/A'/>
           <InfoIcon src={VaultSvg} info='Supply:' value='1,000,000,000'/>
         </div>
       </Section>
