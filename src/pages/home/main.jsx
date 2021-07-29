@@ -80,11 +80,12 @@ const HomePage = () => {
       <Section>
         <Timeline theme={roadmap_theme}>
           <Events>
-            <TextEvent date='Q3 2021' text='Presale, Launch, Marketing, Audit' />
-            <TextEvent date='Q4 2021' text='2500 wallet holders, Coinmarketcap / Coingecko listing' />
-            <TextEvent date='Q1 2022' text='Change sales tax TBD, get listed on Bitmart, and a second big marketing push' />
-            <TextEvent date='Q2 2022' text='Change sales tax TBD, get listed with other exchanges' />
-            <TextEvent date='Q3 2022' text='Reach out to binance, Coinbase, HitBTC, and other popular exchanges' />
+            <TextEvent date='Q3 2021' text="Launch presale and token, marketing with reddit tiktok, youtubers. Participate in AMA's, Launch website, Start an AD campaign, Shill on coinsniper, telegram, and various other areas.  Do free audit while searching for paid audit.  Look into paid marketing with a marketing agency"/>
+            
+            <TextEvent date='Q4 2021' text='Work on gaining over 2.5k wallet holders.  Get logo on trust wallet and bscscan.  Do paid marketing via banners.  Change sales tax TBD.  Get listed on Coinmarketcap and Coingecko.' />
+            <TextEvent date='Q1 2022' text='Change sales tax TBD. Get listed on Bitmart.  Second big marketing push.' />
+            <TextEvent date='Q2 2022' text='Change sales tax TBD, get listed with other exchanges.' />
+            <TextEvent date='Q3 2022' text='Reach out to Binance, Coinbase, Hitbtc, and other popular exchanges.' />
             <TextEvent date='Q4 2022' text='Welcome to the moon!' />
           </Events>
         </Timeline>
