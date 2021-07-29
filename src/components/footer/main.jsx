@@ -19,7 +19,7 @@ const Icon = (props) => {
 
 const Footer = () => {
   return (
-    <Section>
+    <Section id='socials'>
       <div className={styles.socials}>
         <Icon icon={DiscordSvg} to=''/>
         <Icon icon={RedditSvg} to=''/>
