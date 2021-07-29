@@ -24,8 +24,8 @@ const roadmap_theme = createTheme(themes.default, {
 
 const HeroButton = (props) => {
   return (
-    <Link to={{pathname: props.to}}>
-      <div className={styles.hero_button} style={{background: props.primary ? '#B0191A' : '#21272D'}}>
+    <Link to={props.to}>
+      <div className={styles[props.primary ? 'primary_button' : 'secondary_button']}>
           <Text color='#D7D7D7'>{props.text}</Text>
       </div>
     </Link>
@@ -45,7 +45,7 @@ const HomePage = () => {
               <Text size={2} family='Inter'>MADE FOR INVESTORS, BY INVESTORS</Text>
             </div>
             <div className={styles.hero_buttons_container}>
-              <HeroButton to='/' text='Whitepaper'/>
+              <HeroButton to='/whitepaper' text='Whitepaper'/>
               <HeroButton primary to='/' text='Buy Now!'/>
             </div>
           </div>

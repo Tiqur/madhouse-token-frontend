@@ -76,6 +76,26 @@
   margin-top: 1.5em;
   padding: 0.8em 4em;
   margin-right: 3em;
+  transition: 300ms;
+}
+
+.primary_button {
+  @extend .hero_button;
+  background: #B0191A;
+
+  &:hover {
+    background: #BF3132 !important;
+  }
+}
+
+
+.secondary_button {
+  @extend .hero_button;
+  background: #21272D;
+
+  &:hover {
+    background: #252E39 !important;
+  }
 }
 
 .inner_hero_container {
