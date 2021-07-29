@@ -4,6 +4,7 @@ export {ReactComponent as TwitterSvg} from './twitter.svg';
 export {ReactComponent as DropSvg} from './drop.svg';
 export {ReactComponent as MoneySvg} from './money.svg';
 export {ReactComponent as VaultSvg} from './vault.svg';
+export {ReactComponent as YoutubeSvg} from './youtube.svg';
 export {ReactComponent as TokenomicsSvg} from './tokenomics.svg';
 export {default as LogoPng} from './logo.webp';
 export {default as SpinningCoinMP4} from './spinning_coin.mp4';
