@@ -46,7 +46,7 @@
 
   // To make the second line appear directly under first line
   & :nth-child(2) {
-    margin-top: -18px !important;
+    margin-top: -65px !important;
   }
 }
 
@@ -120,11 +120,11 @@
   }
   .hero_text {
     & :nth-child(1) {
-      font-size: 5ch !important;
+      font-size: 7ch !important;
     }
     & :nth-child(2) {
-      font-size: 4ch !important;
-      margin-top: -15px !important;
+      font-size: 6ch !important;
+      margin-top: -50px !important;
     }
     & :nth-child(3) {
       font-size: 2ch !important;
@@ -152,11 +152,11 @@
   }
   .hero_text {
     & :nth-child(1) {
-      font-size: 4.5ch !important;
+      font-size: 5ch !important;
     }
     & :nth-child(2) {
-      font-size: 3.5ch !important;
-      margin-top: -15px !important;
+      font-size: 4ch !important;
+      margin-top: -35px !important;
     }
     & :nth-child(3) {
       font-size: 1.5ch !important;
@@ -187,7 +187,7 @@
     }
     & :nth-child(2) {
       font-size: 3ch !important;
-      margin-top: -15px !important;
+      margin-top: -25px !important;
     }
     & :nth-child(3) {
       font-size: 1ch !important;
@@ -215,14 +215,14 @@
   }
   .hero_text {
     & :nth-child(1) {
-      font-size: 2.5ch !important;
+      font-size: 3.5ch !important;
     }
     & :nth-child(2) {
-      font-size: 1.5ch !important;
-      margin-top: -5px !important;
+      font-size: 2.5ch !important;
+      margin-top: -18px !important;
     }
     & :nth-child(3) {
-      font-size: 0.5ch !important;
+      font-size: 1ch !important;
     }
   } 
   .hero_button {

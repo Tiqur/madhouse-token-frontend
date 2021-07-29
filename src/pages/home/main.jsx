@@ -40,8 +40,8 @@ const HomePage = () => {
         <div className={styles.inner_hero_container}>
           <div className={styles.hero_content}>
             <div className={styles.hero_text}>
-              <Text family='League Spartan Bold' size={7}>Introducing:</Text>
-              <Text family='League Spartan Bold' size={5.5}>The Madhouse Token</Text>
+              <Text family='League Spartan' size={9}>Introducing:</Text>
+              <Text family='League Spartan' size={7.5}>The Madhouse Token</Text>
               <Text size={2} family='Inter'>MADE FOR INVESTORS, BY INVESTORS</Text>
             </div>
             <div className={styles.hero_buttons_container}>
