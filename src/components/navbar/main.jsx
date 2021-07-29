@@ -1,5 +1,6 @@
 import styles from './styles.module.scss';
 import { LogoPng } from '../../assets/index.js';
+import { HashLink } from 'react-router-hash-link';
 import { Text } from '../index.js';
 import { Link } from 'react-router-dom';
 import Hamburger from 'react-hamburger-menu';
@@ -7,9 +8,9 @@ import { useState } from 'react';
 
 const NavLink = (props) => {
   return (
-    <Link to={{pathname: props.to}} className={props.className}>
+    <HashLink to={props.to} className={props.className} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}>
       <Text size={1.6}>{props.text}</Text>
-    </Link>
+    </HashLink>
   )
 }
 
@@ -25,7 +26,7 @@ const Navbar = () => {
         </Link>
         <div className={styles.nav_links_container}>
           <NavLink to='/' text='Home'/>
-          <NavLink to='/about' text='About'/>
+          <NavLink to='/#about' text='About'/>
           <NavLink to='/charts' text='Charts'/>
           <NavLink to='/whitepaper' text='Whitepaper'/>
         </div>

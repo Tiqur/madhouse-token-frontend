@@ -61,7 +61,7 @@ const HomePage = () => {
         </div>
       </Section>
 
-      <Section title='About'>
+      <Section id='about' title='About'>
         <Text>The Madhouse token is a unique token with first of its kind tokenomics. We invite you to join us in the new age of how tokenomics was meant to be. We are a team of like minded investors united by a common goal to make the crypto space more geared towards the investor. From our origins in the Markus Madhouse dogecoin youtube community we have bound together our combined brain power and unique talent pool to develop a new era of optimised smart contracts. The Madhouse Token is the first of it’s kind and will be a game changer in the cryto space. You will be able to share and spend it freely with no tax on transfers, the way tokenomics should work. Investors are only taxed when buying and selling to grow the liquidity pool and, most importantly grow their own bags. With our custom tokenomics, Madhouse Tokens can and most certainly will be used as an everyday currency in the future due to our Zero tax on transfers.</Text>
       </Section>
 
