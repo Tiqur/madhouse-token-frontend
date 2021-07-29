@@ -69,10 +69,10 @@ const HomePage = () => {
         <div className={styles.tokenomics_container}>
           <TokenomicsSvg fill='#7C7C7C' className={styles.tokenomics_svg}/>
           <ul className={styles.tokenomics_list}>
-            <li><span className={styles.dot}/>Example 1</li>
-            <li><span className={styles.dot}/>Example 2</li>
-            <li><span className={styles.dot}/>Example 3</li>
-            <li><span className={styles.dot}/>Example 4</li>
+            <li><span className={styles.dot}/>Purchases: 4% ( 3% Holders, 1% LPP )</li>
+            <li><span className={styles.dot}/>Sales: 25% ( 20% Holders, 5% LPP )</li>
+            <li><span className={styles.dot}/>Low gas fees</li>
+            <li><span className={styles.dot}/>0% TRANSFER FEE!!</li>
           </ul>
         </div>
       </Section>
