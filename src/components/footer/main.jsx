@@ -10,7 +10,7 @@ import {
 
 const Icon = (props) => {
   return (
-    <a target='_blank' href={props.to}>
+    <a rel="noopener" target='_blank' href={props.to}>
       {<props.icon fill='#7C7C7C' className={styles.icon}/>}
     </a>
   )
