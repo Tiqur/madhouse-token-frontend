@@ -34,7 +34,7 @@ const HeroButton = (props) => {
 
 const HomePage = () => {
   return (
-    <div className={styles.main_container}>
+    <div id='home' className={styles.main_container}>
       <Navbar/>
       <div className={styles.hero_container}>
         <div className={styles.inner_hero_container}>

@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 const NavLink = (props) => {
   return (
-    <HashLink to={props.to} className={props.className} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'center' })}>
+    <HashLink to={props.to} className={props.className} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: props.to.endsWith('home') ? 'start' : 'center' })}>
       <Text size={1.6}>{props.text}</Text>
     </HashLink>
   )
@@ -25,7 +25,7 @@ const Navbar = () => {
           <Text size={4.5} _style='italic' margin='0 0 0 0.15em' weight='bold' family='Barlow Condensed'>MADHOUSE</Text>
         </Link>
         <div className={styles.nav_links_container}>
-          <NavLink to='/' text='Home'/>
+          <NavLink to='/#home' text='Home'/>
           <NavLink to='/#about' text='About'/>
           <NavLink to='/#socials' text='Socials'/>
           <NavLink to='/charts' text='Charts'/>
