@@ -1,7 +1,7 @@
 import styles from './syles.module.scss';
 import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.js';
 import { LogoPng } from '../../assets/index.js';
-import { DropSvg, MoneySvg, VaultSvg, TokenomicsSvg } from '../../assets/index.js';
+import { DropSvg, MoneySvg, VaultSvg, TokenDistribution } from '../../assets/index.js';
 import { Link } from 'react-router-dom';
 import { Timeline, Events, TextEvent, themes, createTheme } from '@merc/react-timeline';
 
@@ -67,7 +67,7 @@ const HomePage = () => {
 
       <Section title='Deflationomics'>
         <div className={styles.tokenomics_container}>
-          <TokenomicsSvg fill='#7C7C7C' className={styles.tokenomics_svg}/>
+          <img src={TokenDistribution} fill='#7C7C7C' className={styles.token_distribution}/>
           <ul className={styles.tokenomics_list}>
             <li><span className={styles.dot}/>Purchases: 3% ( 2.5% Holders, 0.5% LPP )</li>
             <li><span className={styles.dot}/>Sales: 25% ( 20% Holders, 5% LPP )</li>
