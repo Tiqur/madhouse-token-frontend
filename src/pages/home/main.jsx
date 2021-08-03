@@ -46,7 +46,7 @@ const HomePage = () => {
             </div>
             <div className={styles.hero_buttons_container}>
               <HeroButton to='/whitepaper' text='Lite Paper'/>
-              <HeroButton primary to='/' text='Buy Now!'/>
+              <HeroButton primary to='/swap' text='Buy Now!'/>
             </div>
           </div>
           <img src={LogoPng} className={styles.hero_logo} alt='hero_logo'/>

@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { HomePage, WhitepaperPage } from './pages/index.js';
+import { HomePage, WhitepaperPage, SwapPage } from './pages/index.js';
 import "@fontsource/barlow-condensed";
 import "@fontsource/inter";
 import "@fontsource/league-spartan/500.css";
@@ -10,6 +10,7 @@ function App() {
     <BrowserRouter>
       <Switch>
         <Route exact path='/' component={HomePage}/>
+        <Route exact path='/swap' component={SwapPage}/>
         <Route exact path='/whitepaper' component={WhitepaperPage}/>
       </Switch>
     </BrowserRouter>

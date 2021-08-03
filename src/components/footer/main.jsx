@@ -27,12 +27,7 @@ const Footer = () => {
       </div>
       <div className={styles.links}>
         <BrowserRouter>
-          <Link>
-            <Text>Terms of Service</Text>
-          </Link>
-          <Link>
-            <Text>Privacy Policy</Text>
-          </Link>
+          <Text>© Copyright 2021 | Markus Madhouse</Text>
         </BrowserRouter>
       </div>
     </Section>
