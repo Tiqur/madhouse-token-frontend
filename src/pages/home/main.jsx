@@ -1,4 +1,4 @@
-import styles from './syles.module.scss';
+import styles from './styles.module.scss';
 import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.js';
 import { LogoPng } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg, TokenDistribution } from '../../assets/index.js';
