@@ -29,7 +29,7 @@ const Navbar = () => {
           <NavLink to='/#about' text='About'/>
           <NavLink to='/#socials' text='Socials'/>
           <NavLink to='/charts' text='Charts'/>
-          <NavLink to='/whitepaper' text='Whitepaper'/>
+          <NavLink to='/whitepaper' text='Lite Paper'/>
         </div>
         <div className={styles.hamburger}>
           <Hamburger isOpen={hamburger} menuClicked={() => setHamburger(!hamburger)} color='#D7D7D7'/>
@@ -41,7 +41,7 @@ const Navbar = () => {
                 <NavLink className={styles.hamburger_link} to='/#about' text='About'/>
                 <NavLink className={styles.hamburger_link} to='/#socials' text='Socials'/>
                 <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
-                <NavLink className={styles.hamburger_link} to='/whitepaper' text='Whitepaper'/>
+                <NavLink className={styles.hamburger_link} to='/whitepaper' text='Lite Paper'/>
               </div>
             </>
           }
