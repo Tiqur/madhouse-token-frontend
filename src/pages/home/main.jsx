@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.js';
-import { LogoPng } from '../../assets/index.js';
+import { LogoSvg } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg, TokenDistribution } from '../../assets/index.js';
 import { Link } from 'react-router-dom';
 import { Timeline, Events, TextEvent, themes, createTheme } from '@merc/react-timeline';
