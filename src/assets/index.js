@@ -1,6 +1,7 @@
 export {ReactComponent as DiscordSvg} from './discord.svg';
 export {ReactComponent as TelegramSvg} from './telegram.svg';
 export {ReactComponent as TwitterSvg} from './twitter.svg';
+export {ReactComponent as RedditSvg} from './reddit.svg';
 export {ReactComponent as DropSvg} from './drop.svg';
 export {ReactComponent as MoneySvg} from './money.svg';
 export {ReactComponent as VaultSvg} from './vault.svg';
