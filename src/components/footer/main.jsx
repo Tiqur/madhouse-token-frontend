@@ -5,7 +5,8 @@ import {
   DiscordSvg, 
   YoutubeSvg, 
   TelegramSvg,
-  TwitterSvg 
+  TwitterSvg,
+  RedditSvg
 } from '../../assets/index.js';
 
 const Icon = (props) => {

@@ -49,7 +49,7 @@ const HomePage = () => {
               <HeroButton primary to='/swap' text='Buy Now!'/>
             </div>
           </div>
-          <img src={LogoPng} className={styles.hero_logo} alt='hero_logo'/>
+          <img src={LogoSvg} className={styles.hero_logo} alt='hero_logo'/>
         </div>
       </div>
 
