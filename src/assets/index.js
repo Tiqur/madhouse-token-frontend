@@ -7,6 +7,6 @@ export {ReactComponent as MoneySvg} from './money.svg';
 export {ReactComponent as VaultSvg} from './vault.svg';
 export {ReactComponent as YoutubeSvg} from './youtube.svg';
 export {default as TokenDistribution} from './token_distribution.png';
-export {default as LogoPng} from './logo.webp';
+export {default as LogoSvg} from './MadHouse.svg';
 export {default as SpinningCoinMP4} from './spinning_coin.mp4';
 export {default as WhitepaperPdf} from './Madhouse-token-lite-paper.pdf';
