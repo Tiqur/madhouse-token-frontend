@@ -9,7 +9,7 @@ const SwapPage = () => {
     <div className={styles.main_container}>
       <Navbar/>
         <div className={styles.inner_container}>
-          <Text size={2.5}>We are currently in the private sale phase.  Please join our {social_scroll} for more information!</Text>
+          <Text size={2.5}>We are currently in the presale whitelisting phase.  Please join our {social_scroll} for more information!</Text>
           { /* 
           <div className={styles.frame_container}>
               <Text size={2} margin='0 0 2em 0' weight={1000}>Contract Address:</Text>
