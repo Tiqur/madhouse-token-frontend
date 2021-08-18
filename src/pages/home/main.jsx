@@ -67,7 +67,7 @@ const HomePage = () => {
 
       <Section title='Deflationomics'>
         <div className={styles.tokenomics_container}>
-          <img src={TokenDistribution} fill='#7C7C7C' className={styles.token_distribution}/>
+          <img src={TokenDistribution} fill='#7C7C7C' alt='token distribution graph' className={styles.token_distribution}/>
           <ul className={styles.tokenomics_list}>
             <li><span className={styles.dot}/>Purchases: 3% ( 2.5% Holders, 0.5% LPP )</li>
             <li><span className={styles.dot}/>Sales: 25% ( 20% Holders, 5% LPP )</li>
