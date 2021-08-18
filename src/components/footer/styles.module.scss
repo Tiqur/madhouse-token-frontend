@@ -31,4 +31,8 @@
   height: 3em;
   width: 3em;
   margin: 0 1em 0 1em;
+
+  &:hover {
+    fill: #8c8c8c;
+  }
 }
