@@ -97,7 +97,7 @@ const HomePage = () => {
         </div>
       </Section>
       
-      <Section>
+      <Section title='Roadmap'>
         <Timeline theme={roadmap_theme}>
           <Events>
             <TextEvent date='Q3 2021' text="Launch presale and token, marketing with reddit tiktok, youtubers. Participate in AMA's, Launch website, Start an AD campaign, Shill on coinsniper, telegram, and various other areas.  Do free audit while searching for paid audit.  Look into paid marketing with a marketing agency"/>
