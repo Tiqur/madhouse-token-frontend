@@ -41,9 +41,11 @@ const HeroButton = (props) => {
 const TeamCard = (props) => {
   return (
     <div className={styles.team_card}>
+      <div>
       <img className={styles.team_card_image} src={props.image}/>
-      <Text size={1.2} weight='bold' color='#D4D4D4'>{props.name}</Text>
-      <Text size={1} color='#AFAFAF'>{props.title}</Text>
+        <Text size={1.2} weight='bold' color='#D4D4D4'>{props.name}</Text>
+        <Text size={1} color='#AFAFAF'>{props.title}</Text>
+      </div>
       <div className={styles.team_card_socials}>
         <DiscordSvg fill='#929292'/>
         <TwitterSvg fill='#929292'/>
