@@ -108,7 +108,7 @@ const HomePage = () => {
         </Timeline>
       </Section>
 
-      <Section>
+      <Section title='Meet the team'>
         <div className={styles.team_container}>
           <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
           <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
