@@ -19,9 +19,14 @@
   background: #343237;
   margin: 2em;
   text-align: left;
+  transition: 200ms;
 
   & p {
     margin-left: 6px !important;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 }
 
