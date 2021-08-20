@@ -33,10 +33,11 @@
   display: flex;
   justify-content: flex-end;
   width: calc(100% - 6px);
-  margin-top: -7px;
+  margin-top: -12px;
 
   & * {
     width: 20px;
+    padding-bottom: 4px;
   }
 }
 

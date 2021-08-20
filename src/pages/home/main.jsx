@@ -110,11 +110,12 @@ const HomePage = () => {
 
       <Section title='Meet the team'>
         <div className={styles.team_container}>
-          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Markus' title='Creator / Founder' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Benzolio' title='Creator / Smart Contract Developer' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Tiqur' title='Web Developer' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Lucid' title='Graphic Designer' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Altman' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Madfoz' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
         </div>
       </Section>
 
