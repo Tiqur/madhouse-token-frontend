@@ -11,3 +11,4 @@ export {default as TokenDistribution} from './token_distribution.png';
 export {default as LogoSvg} from './MadHouse.svg';
 export {default as SpinningCoinMP4} from './spinning_coin.mp4';
 export {default as WhitepaperPdf} from './Madhouse-token-lite-paper.pdf';
+export {default as MarkusPng} from './markus.png';

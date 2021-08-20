@@ -8,6 +8,7 @@ import {
   DiscordSvg, 
   TwitterSvg,
   LinkedinSvg,
+  MarkusPng
 } from '../../assets/index.js';
 
 const roadmap_theme = createTheme(themes.default, {
@@ -112,7 +113,7 @@ const HomePage = () => {
 
       <Section title='Meet the team'>
         <div className={styles.team_container}>
-          <TeamCard name='Markus' title='Creator / Founder' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Markus' title='Creator / Founder' image={MarkusPng}/>
           <TeamCard name='Benzolio' title='Creator / Smart Contract Developer' image='https://cdn.discordapp.com/avatars/352999571833749504/6442cae145747099c203ffb97cc75f68.png?size=128'/>
           <TeamCard name='Tiqur' title='Web Developer' image='https://cdn.discordapp.com/avatars/197010373050761216/5b5a6a16c8ead7867a485e4969fa877e.png?size=128'/>
           <TeamCard name='Lucid' title='Graphic Designer' image='https://cdn.discordapp.com/avatars/300119438282194955/a_15dbd3e2298f7b4753359786004daac9.png?size=128'/>
