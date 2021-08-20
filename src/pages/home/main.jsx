@@ -111,11 +111,11 @@ const HomePage = () => {
       <Section title='Meet the team'>
         <div className={styles.team_container}>
           <TeamCard name='Markus' title='Creator / Founder' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Benzolio' title='Creator / Smart Contract Developer' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Tiqur' title='Web Developer' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Lucid' title='Graphic Designer' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Altman' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
-          <TeamCard name='Madfoz' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Benzolio' title='Creator / Smart Contract Developer' image='https://cdn.discordapp.com/avatars/352999571833749504/6442cae145747099c203ffb97cc75f68.png?size=128'/>
+          <TeamCard name='Tiqur' title='Web Developer' image='https://cdn.discordapp.com/avatars/197010373050761216/5b5a6a16c8ead7867a485e4969fa877e.png?size=128'/>
+          <TeamCard name='Lucid' title='Graphic Designer' image='https://cdn.discordapp.com/avatars/300119438282194955/a_15dbd3e2298f7b4753359786004daac9.png?size=128'/>
+          <TeamCard name='Altman' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/701178867079184546/c0892e5671c098c526c0be8bd04a09e7.png?size=128'/>
+          <TeamCard name='Madfoz' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/491203044101586975/fef8bdede8bb4a3022f95ca0ccde1235.png?size=128'/>
         </div>
       </Section>
 
