@@ -4,6 +4,10 @@ import { LogoSvg } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg, TokenDistribution } from '../../assets/index.js';
 import { Link } from 'react-router-dom';
 import { Timeline, Events, TextEvent, themes, createTheme } from '@merc/react-timeline';
+import {
+  DiscordSvg, 
+  TwitterSvg,
+} from '../../assets/index.js';
 
 const roadmap_theme = createTheme(themes.default, {
   timelineTrack: {
@@ -38,6 +42,10 @@ const TeamCard = (props) => {
       <img className={styles.team_card_image} src={props.image}/>
       <Text size={1.2} weight='bold' color='#D4D4D4'>{props.name}</Text>
       <Text size={1} color='#AFAFAF'>{props.title}</Text>
+      <div className={styles.team_card_socials}>
+        <DiscordSvg fill='#929292'/>
+        <TwitterSvg fill='#929292'/>
+      </div>
     </div>
   )
 }
