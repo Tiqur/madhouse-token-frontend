@@ -32,6 +32,16 @@ const HeroButton = (props) => {
   )
 }
 
+const TeamCard = (props) => {
+  return (
+    <div className={styles.team_card}>
+      <img className={styles.team_card_image} src={props.image}/>
+      <Text size={1.2} weight='bold' color='#D4D4D4'>{props.name}</Text>
+      <Text size={1} color='#AFAFAF'>{props.title}</Text>
+    </div>
+  )
+}
+
 const HomePage = () => {
   return (
     <div id='home' className={styles.main_container}>
@@ -88,6 +98,16 @@ const HomePage = () => {
             <TextEvent date='Q4 2022' text='Welcome to the moon!' />
           </Events>
         </Timeline>
+      </Section>
+
+      <Section>
+        <div className={styles.team_container}>
+          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+          <TeamCard name='Markus' title='Mastermind' image='https://cdn.discordapp.com/avatars/144837105082826752/206185a5bc2fbf1bd1e7bb2f8197dec7.png?size=128'/>
+        </div>
       </Section>
 
       <Footer/>

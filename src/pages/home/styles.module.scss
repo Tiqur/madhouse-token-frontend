@@ -3,6 +3,36 @@
   flex-direction: column;
 }
 
+.team_container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 14.5em;
+  width: 10em;
+  background: #343237;
+  margin: 2em;
+
+  & :nth-child(2) {
+    margin-top: 6px !important;
+  }
+
+  & p {
+    margin-left: 8px !important;
+  }
+}
+
+.team_card_image {
+  height: 10em;
+  width: 10em;
+}
+
 .token_distribution {
   height: 25em;
 }
