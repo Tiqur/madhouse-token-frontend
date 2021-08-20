@@ -7,10 +7,15 @@ import Hamburger from 'react-hamburger-menu';
 import { useState } from 'react';
 
 const NavLink = (props) => {
+  const child = <Text size={1.6}>{props.text}</Text>;
+
   return (
-    <HashLink to={props.to} className={props.className} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: props.to.endsWith('home') ? 'start' : 'center' })}>
-      <Text size={1.6}>{props.text}</Text>
-    </HashLink>
+    <>
+      { props.to.includes('http')
+        ?  <a style={{ textDecoration: 'none' }} className={props.className} target='_blank' href={props.to}>{child}</a>
+        :  <HashLink to={props.to} className={props.className} scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: props.to.endsWith('home') ? 'start' : 'center' })} children={child}/>
+      }
+    </>
   )
 }
 
@@ -30,6 +35,7 @@ const Navbar = () => {
           <NavLink to='/#socials' text='Socials'/>
           <NavLink to='/charts' text='Charts'/>
           <NavLink to='/whitepaper' text='Lite Paper'/>
+          <NavLink to='https://hacken.io/wp-content/uploads/2021/08/Madhouse_20082021SCAudit_Report_2-2.pdf' text='Audit'/>
         </div>
         <div className={styles.hamburger}>
           <Hamburger isOpen={hamburger} menuClicked={() => setHamburger(!hamburger)} color='#D7D7D7'/>
@@ -42,6 +48,7 @@ const Navbar = () => {
                 <NavLink className={styles.hamburger_link} to='/#socials' text='Socials'/>
                 <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
                 <NavLink className={styles.hamburger_link} to='/whitepaper' text='Lite Paper'/>
+                <NavLink className={styles.hamburger_link} to='https://hacken.io/wp-content/uploads/2021/08/Madhouse_20082021SCAudit_Report_2-2.pdf' text='Audit'/>
               </div>
             </>
           }
