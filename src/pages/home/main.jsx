@@ -7,6 +7,7 @@ import { Timeline, Events, TextEvent, themes, createTheme } from '@merc/react-ti
 import {
   DiscordSvg, 
   TwitterSvg,
+  LinkedinSvg,
 } from '../../assets/index.js';
 
 const roadmap_theme = createTheme(themes.default, {
@@ -45,6 +46,7 @@ const TeamCard = (props) => {
       <div className={styles.team_card_socials}>
         <DiscordSvg fill='#929292'/>
         <TwitterSvg fill='#929292'/>
+        <LinkedinSvg fill='#929292'/>
       </div>
     </div>
   )

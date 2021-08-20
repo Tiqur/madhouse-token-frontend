@@ -1,4 +1,5 @@
 export {ReactComponent as DiscordSvg} from './discord.svg';
+export {ReactComponent as LinkedinSvg} from './linkedin.svg';
 export {ReactComponent as TelegramSvg} from './telegram.svg';
 export {ReactComponent as TwitterSvg} from './twitter.svg';
 export {ReactComponent as RedditSvg} from './reddit.svg';
