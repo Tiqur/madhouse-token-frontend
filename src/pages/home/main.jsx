@@ -122,32 +122,32 @@ const HomePage = () => {
       <Section title='Meet the team'>
         <div className={styles.team_container}>
           <TeamCard name='Markus' title='Creator / Founder' image={MarkusPng}>
-            <TeamSocial to='google.com' icon={DiscordSvg}/>
-            <TeamSocial to='google.com' icon={TwitterSvg}/>
+            <TeamSocial to='https://discord.com/users/144837105082826752' icon={DiscordSvg}/>
+            <TeamSocial to='https://www.linkedin.com/in/nick-munson-28591615a/' icon={LinkedinSvg}/>
           </TeamCard>
           <TeamCard name='Benzolio' title='Creator / Smart Contract Developer' image='https://cdn.discordapp.com/avatars/352999571833749504/6442cae145747099c203ffb97cc75f68.png?size=128'>
-            <TeamSocial to='google.com' icon={DiscordSvg}/>
-            <TeamSocial to='google.com' icon={TwitterSvg}/>
+            <TeamSocial to='https://discord.com/users/352999571833749504' icon={DiscordSvg}/>
+            <TeamSocial to='https://twitter.com/benzolio' icon={TwitterSvg}/>
           </TeamCard>
           <TeamCard name='Tiqur' title='Web Developer' image='https://cdn.discordapp.com/avatars/197010373050761216/5b5a6a16c8ead7867a485e4969fa877e.png?size=128'>
-            <TeamSocial to='google.com' icon={DiscordSvg}/>
-            <TeamSocial to='google.com' icon={LinkedinSvg}/>
+            <TeamSocial to='https://discord.com/users/197010373050761216' icon={DiscordSvg}/>
+            <TeamSocial to='https://www.linkedin.com/in/trevor-brage-8b6865217' icon={LinkedinSvg}/>
           </TeamCard>
           <TeamCard name='Lucid' title='Graphic Designer' image='https://cdn.discordapp.com/avatars/300119438282194955/a_15dbd3e2298f7b4753359786004daac9.png?size=128'>
-            <TeamSocial to='google.com' icon={DiscordSvg}/>
-            <TeamSocial to='google.com' icon={TwitterSvg}/>
+            <TeamSocial to='https://discord.com/users/197010373050761216' icon={DiscordSvg}/>
+            <TeamSocial to='' icon={TwitterSvg}/>
           </TeamCard>
           <TeamCard name='Altman' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/701178867079184546/c0892e5671c098c526c0be8bd04a09e7.webp?size=128'>
-            <TeamSocial to='google.com' icon={DiscordSvg}/>
-            <TeamSocial to='google.com' icon={TwitterSvg}/>
+            <TeamSocial to='https://discord.com/users/701178867079184546' icon={DiscordSvg}/>
+            <TeamSocial to='https://twitter.com/Altman420' icon={TwitterSvg}/>
           </TeamCard>
           <TeamCard name='Madfoz' title='Telegram Coordinator / PR Manager' image='https://cdn.discordapp.com/avatars/491203044101586975/fef8bdede8bb4a3022f95ca0ccde1235.png?size=128'>
-            <TeamSocial to='google.com' icon={DiscordSvg}/>
+            <TeamSocial to='https://discord.com/users/491203044101586975' icon={DiscordSvg}/>
             <TeamSocial to='google.com' icon={TwitterSvg}/>
           </TeamCard>
           <TeamCard name='Chichi' title='Social media manager' image='https://cdn.discordapp.com/avatars/731087373177192451/5d484204b3ce7f448c277ba9853bad30.webp?size=128'>
-            <TeamSocial to='google.com' icon={DiscordSvg}/>
-            <TeamSocial to='google.com' icon={TwitterSvg}/>
+            <TeamSocial to='https://discord.com/users/731087373177192451' icon={DiscordSvg}/>
+            <TeamSocial to='https://twitter.com/ImJustMe_3300' icon={TwitterSvg}/>
           </TeamCard>
         </div>
       </Section>
