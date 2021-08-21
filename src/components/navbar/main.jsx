@@ -33,7 +33,9 @@ const Navbar = () => {
           <NavLink to='/#home' text='Home'/>
           <NavLink to='/#about' text='About'/>
           <NavLink to='/#socials' text='Socials'/>
-          <NavLink to='/charts' text='Charts'/>
+    {
+      // <NavLink to='/charts' text='Charts'/>
+    }
           <NavLink to='/whitepaper' text='Lite Paper'/>
           <NavLink to='https://hacken.io/wp-content/uploads/2021/08/Madhouse_20082021SCAudit_Report_2-2.pdf' text='Audit'/>
         </div>
@@ -46,8 +48,10 @@ const Navbar = () => {
                 <NavLink className={styles.hamburger_link} to='/#home' text='Home'/>
                 <NavLink className={styles.hamburger_link} to='/#about' text='About'/>
                 <NavLink className={styles.hamburger_link} to='/#socials' text='Socials'/>
-                <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
                 <NavLink className={styles.hamburger_link} to='/whitepaper' text='Lite Paper'/>
+                {
+                  // <NavLink className={styles.hamburger_link} to='/charts' text='Charts'/>
+                }
                 <NavLink className={styles.hamburger_link} to='https://hacken.io/wp-content/uploads/2021/08/Madhouse_20082021SCAudit_Report_2-2.pdf' text='Audit'/>
               </div>
             </>
