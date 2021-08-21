@@ -41,12 +41,21 @@
   justify-content: flex-end;
   width: calc(100% - 6px);
   margin-top: -12px;
+}
 
-  & * {
-    width: 18px;
-    height: 18px;
-    padding: 4px 2px 8px 2px;
-  }
+.team_card_social {
+    &:hover {
+      & * {
+        transform: scale(1.05);
+        fill: #a6a6a6;
+      }
+    }
+
+    & * {
+      width: 18px;
+      height: 18px;
+      padding: 4px 2px 4px 2px;
+    }
 }
 
 .token_distribution {

@@ -55,7 +55,7 @@ const TeamCard = (props) => {
 
 const TeamSocial = (props) => {
   return (
-    <a target='_blank' href={props.to}>
+    <a target='_blank' className={styles.team_card_social} href={props.to}>
       <props.icon fill='#929292'/>
     </a>
   )
