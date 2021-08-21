@@ -38,9 +38,9 @@
 
 .team_card_socials {
   display: flex;
+  align-items: center;
   justify-content: flex-end;
   width: calc(100% - 6px);
-  margin-top: -12px;
 }
 
 .team_card_social {
@@ -52,9 +52,9 @@
     }
 
     & * {
-      width: 18px;
-      height: 18px;
-      padding: 4px 2px 4px 2px;
+      width: 20px;
+      height: 20px;
+      padding: 2px 0px 2px 2px;
     }
 }
 
