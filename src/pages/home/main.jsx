@@ -141,7 +141,7 @@ const HomePage = () => {
           </TeamCard>
           <TeamCard name='Lucid' title='Graphic Designer' image={LucidWebp}>
             <TeamSocial to='https://discord.com/users/197010373050761216' icon={DiscordSvg}/>
-            <TeamSocial to='' icon={TwitterSvg}/>
+            <TeamSocial to='https://twitter.com/LucidToxic02' icon={TwitterSvg}/>
           </TeamCard>
           <TeamCard name='Altman' title='Telegram Coordinator / PR Manager' image={AltmanWebp}>
             <TeamSocial to='https://discord.com/users/701178867079184546' icon={DiscordSvg}/>
