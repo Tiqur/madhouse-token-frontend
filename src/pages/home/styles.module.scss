@@ -143,7 +143,11 @@
   margin-top: 1.5em;
   padding: 0.8em 4em;
   margin-right: 3em;
-  transition: 300ms;
+  transition: 220ms;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
 .primary_button {
