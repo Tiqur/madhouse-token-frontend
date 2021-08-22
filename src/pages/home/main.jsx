@@ -104,8 +104,9 @@ const HomePage = () => {
           <img src={LogoSvg} className={styles.hero_logo} alt='hero_logo'/>
         </div>
       </div>
-      <div ref={contract_ref} className={styles.contract_address}>
 
+      <div ref={contract_ref} className={styles.contract_address}>
+        <Text color='#9a989a' weight='bold'>Contract: #####################################</Text>
       </div>
 
       <Section>
