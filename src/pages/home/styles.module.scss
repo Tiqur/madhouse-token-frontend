@@ -206,6 +206,10 @@
   .token_distribution {
     height: 20em;
   }
+  .contract_address {
+    height: 3.5em;
+    font-size: 1.1ch;
+  }
 }
 
 // Phone
@@ -238,6 +242,10 @@
   .token_distribution {
     height: 17em;
   }
+  .contract_address {
+    height: 3.5em;
+    font-size: 1ch;
+  }
 }
 
 @media screen and (max-width: 630px) {
@@ -268,6 +276,9 @@
   }
   .token_distribution {
     height: 13em;
+  }
+  .contract_address {
+    height: 3.5em;
   }
 }
 
@@ -300,6 +311,10 @@
   }
   .token_distribution {
     height: 9em;
+  }
+  .contract_address {
+    height: 4.5em;
+    font-size: 0.8ch;
   }
 }
 
