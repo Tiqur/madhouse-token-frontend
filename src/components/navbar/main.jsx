@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import { Text } from '../index.js';
 import { Link } from 'react-router-dom';
 import Hamburger from 'react-hamburger-menu';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 const NavLink = (props) => {
   const child = <Text size={1.6}>{props.text}</Text>;
@@ -19,11 +19,11 @@ const NavLink = (props) => {
   )
 }
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [hamburger, setHamburger] = useState(false);
 
   return (
-    <div className={styles.container}>
+    <div style={{marginTop: props.contract_scroll ? '2.5em' : 'initial'}}className={styles.container}>
       <div className={styles.inner_container}>
         <Link className={styles.title_container} to={{pathname: '/'}}>
           <img src={LogoSvg} style={{height: '3em', width: '3em'}} alt='logo'/>

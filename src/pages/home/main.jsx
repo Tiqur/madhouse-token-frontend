@@ -1,4 +1,5 @@
 import styles from './styles.module.scss';
+import { useState, useRef, useEffect } from 'react';
 import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.js';
 import { LogoSvg } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg, TokenDistribution } from '../../assets/index.js';
@@ -68,9 +69,23 @@ const TeamSocial = (props) => {
 }
 
 const HomePage = () => {
+  const [contract_scroll, set_contract_scroll] = useState(false);
+  const contract_ref = useRef(null);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      const scroll_pos = contract_ref.current.getBoundingClientRect().top;
+      set_contract_scroll(scroll_pos);
+    });
+
+    return () => {
+      window.removeEventListener('scroll', () => {});
+    }
+  }, [])
+
   return (
     <div id='home' className={styles.main_container}>
-      <Navbar/>
+      <Navbar contract_scroll={contract_scroll === 0}/>
       <div className={styles.hero_container}>
         <div className={styles.inner_hero_container}>
           <div className={styles.hero_content}>
@@ -86,6 +101,9 @@ const HomePage = () => {
           </div>
           <img src={LogoSvg} className={styles.hero_logo} alt='hero_logo'/>
         </div>
+      </div>
+      <div ref={contract_ref} className={styles.contract_address}>
+
       </div>
 
       <Section>
