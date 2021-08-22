@@ -4,7 +4,7 @@ import { HashLink } from 'react-router-hash-link';
 import { Text } from '../index.js';
 import { Link } from 'react-router-dom';
 import Hamburger from 'react-hamburger-menu';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 
 const NavLink = (props) => {
   const child = <Text size={1.6}>{props.text}</Text>;

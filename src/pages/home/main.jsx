@@ -74,8 +74,10 @@ const HomePage = () => {
 
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      const scroll_pos = contract_ref.current.getBoundingClientRect().top;
-      set_contract_scroll(scroll_pos);
+      if (contract_ref.current) {
+        const scroll_pos = contract_ref.current.getBoundingClientRect().top;
+        set_contract_scroll(scroll_pos);
+      }
     });
 
     return () => {
