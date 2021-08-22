@@ -23,7 +23,7 @@ const Navbar = (props) => {
   const [hamburger, setHamburger] = useState(false);
 
   return (
-    <div style={{paddingTop: props.contract_scroll ? '2.5em' : 'initial', zIndex: !props.contract_scroll ? '1001' : 'initial'}} className={styles.container}>
+    <div style={{paddingTop: props.contract_scroll ? '2.5em' : 'initial', zIndex: !props.contract_scroll ? '1001' : '999'}} className={styles.container}>
       <div className={styles.inner_container}>
         <Link className={styles.title_container} to={{pathname: '/'}}>
           <img src={LogoSvg} style={{height: '3em', width: '3em'}} alt='logo'/>
