@@ -10,7 +10,8 @@ const SwapPage = () => {
     <div className={styles.main_container}>
       <Navbar/>
         <div className={styles.inner_container}>
-          <Text size={2.5}>We are currently in the {presale_link} whitelisting phase.  Please join our {telemgram_link} for more information!</Text>
+    <iframe width="372" height="192" src="https://w2.countingdownto.com/3783484" frameborder="0"></iframe>
+          <Text padding='2em 0 0 0' size={2.5}>We are currently in the {presale_link} whitelisting phase.  Please join our {telemgram_link} for more information!</Text>
           { /* 
           <div className={styles.frame_container}>
               <Text size={2} margin='0 0 2em 0' weight={1000}>Contract Address:</Text>
