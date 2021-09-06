@@ -106,7 +106,7 @@ const HomePage = () => {
       </div>
 
       <div ref={contract_ref} className={styles.contract_address}>
-        <Text color='#9a989a' weight='bold'>Contract: 0x4eb962d37a8c301bae54c23430035d0cb863779f</Text>
+        <Text color='#9a989a' weight='bold'>Binance Smart Chain Contract: 0x8c4885867d30f03ad04388cee01c65d11d192e61</Text>
       </div>
 
       <Section>
