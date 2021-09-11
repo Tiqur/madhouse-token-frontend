@@ -131,7 +131,7 @@ With our custom Deflationomics Madhouse Tokens can, and most certainly will be, 
             <li><span className={styles.dot}/>Purchases: 3% ( 2.5% Holders, 0.5% LPP )</li>
             <li><span className={styles.dot}/>Sales: 25% ( 20% Holders, 5% LPP )</li>
             <li><span className={styles.dot}/>Low gas fees</li>
-            <li><span className={styles.dot}/>0% TRANSFER FEE!!</li>
+            <li><span className={styles.dot}/>NO TRANSFER FEES!!</li>
           </ul>
         </div>
       </Section>
