@@ -10,12 +10,12 @@ const GlobalProvider = (props) => {
   useEffect(() => {
     axios.get('https://madhousetoken.com/api')
       .then(res => {
-        console.log(res);
+        setTokenData({price: res.data.price, supply: res.data.supply, market_cap: res.data.market_cap});
       });
-  });
+  }, []);
 
   return (
-    <GlobalContext.Provider value={{}}>
+    <GlobalContext.Provider value={{tokenDataState: [tokenData, setTokenData]}}>
       {props.children}
     </GlobalContext.Provider>
   )

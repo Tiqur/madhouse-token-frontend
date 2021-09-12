@@ -1,10 +1,11 @@
 import styles from './styles.module.scss';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef, useEffect, useContext } from 'react';
 import { Text, Navbar, InfoIcon, Section, Footer } from '../../components/index.js';
 import { LogoSvg } from '../../assets/index.js';
 import { DropSvg, MoneySvg, VaultSvg, TokenDistribution } from '../../assets/index.js';
 import { Link } from 'react-router-dom';
 import { Timeline, Events, TextEvent, themes, createTheme } from '@merc/react-timeline';
+import { GlobalContext } from '../../GlobalContext.jsx';
 import {
   DiscordSvg, 
   TwitterSvg,
@@ -70,6 +71,8 @@ const TeamSocial = (props) => {
 
 const HomePage = () => {
   const [contract_scroll, set_contract_scroll] = useState(false);
+  const { tokenDataState } = useContext(GlobalContext);
+  const [ tokenData, setTokenData ] = tokenDataState;
   const contract_ref = useRef(null);
 
   useEffect(() => {
@@ -111,9 +114,9 @@ const HomePage = () => {
 
       <Section>
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%'}}>
-          <InfoIcon src={DropSvg} info='Liquidity:' value='N/A'/>
-          <InfoIcon src={MoneySvg} info='Market Cap:' value='N/A'/>
-          <InfoIcon src={VaultSvg} info='Supply:' value='1,000,000,000'/>
+          <InfoIcon src={DropSvg} info='Market Cap:' value={tokenData.market_cap}/>
+          <InfoIcon src={MoneySvg} info='Price:' value={tokenData.price}/>
+          <InfoIcon src={VaultSvg} info='Supply:' value={tokenData.supply}/>
         </div>
       </Section>
 
