@@ -1,10 +1,18 @@
 import { useState, createContext, useEffect } from 'react';
+import axios from 'axios';
+
 const GlobalContext = createContext();
 
 const GlobalProvider = (props) => {
-  useEffect(() => {
+  const [tokenData, setTokenData] = useState({});
 
-  })
+  // Fetch data
+  useEffect(() => {
+    axios.get('https://madhousetoken.com/api')
+      .then(res => {
+        console.log(res);
+      });
+  });
 
   return (
     <GlobalContext.Provider value={{}}>
