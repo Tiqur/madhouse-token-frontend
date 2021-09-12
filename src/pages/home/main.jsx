@@ -114,9 +114,9 @@ const HomePage = () => {
 
       <Section>
         <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%'}}>
-          <InfoIcon src={DropSvg} info='Market Cap:' value={Math.round(tokenData.market_cap)}/>
-          <InfoIcon src={MoneySvg} info='Price:' value={tokenData.price.toFixed(8)}/>
-          <InfoIcon src={VaultSvg} info='Supply:' value={Math.round(tokenData.supply)}/>
+          <InfoIcon src={DropSvg} info='Market Cap:' value={Math.round(tokenData.market_cap).toLocaleString()}/>
+          <InfoIcon src={MoneySvg} info='Price:' value={tokenData.price.toFixed(8).toLocaleString()}/>
+          <InfoIcon src={VaultSvg} info='Supply:' value={Math.round(tokenData.supply).toLocaleString()}/>
         </div>
       </Section>
 
