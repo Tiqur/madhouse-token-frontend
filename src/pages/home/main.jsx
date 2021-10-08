@@ -170,7 +170,7 @@ With our custom Deflationomics Madhouse Tokens can, and most certainly will be, 
             <TeamSocial to='https://discord.com/users/197010373050761216' icon={DiscordSvg}/>
             <TeamSocial to='https://twitter.com/LucidToxic02' icon={TwitterSvg}/>
           </TeamCard>
-          <TeamCard name='Altman' title='Telegram Coordinator / PR Manager' image={AltmanWebp}>
+          <TeamCard name='Altman' title='Game Developer' image={AltmanWebp}>
             <TeamSocial to='https://discord.com/users/701178867079184546' icon={DiscordSvg}/>
             <TeamSocial to='https://twitter.com/Altman420' icon={TwitterSvg}/>
           </TeamCard>
