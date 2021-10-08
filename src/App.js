@@ -1,5 +1,5 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import { HomePage, WhitepaperPage, SwapPage } from './pages/index.js';
+import { HomePage, WhitepaperPage, SwapPage, GamePage } from './pages/index.js';
 import { GlobalProvider } from './GlobalContext.jsx';
 import "@fontsource/barlow-condensed";
 import "@fontsource/inter";
@@ -14,6 +14,7 @@ function App() {
           <Route exact path='/' component={HomePage}/>
           <Route exact path='/swap' component={SwapPage}/>
           <Route exact path='/whitepaper' component={WhitepaperPage}/>
+          <Route exact path='/unity-game' component={GamePage}/>
         </Switch>
       </BrowserRouter>
       </GlobalProvider>
