@@ -17,7 +17,6 @@ const GamePage = () => {
     <div className={styles.main_container}>
       <Navbar/>
       <Unity className={styles.game} unityContext={unityContext}/>
-      <Footer/>
     </div>
   )
 }
