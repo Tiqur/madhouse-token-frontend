@@ -21,8 +21,8 @@ const Footer = () => {
   return (
     <Section id='socials'>
       <div className={styles.socials}>
-        <Icon icon={DiscordSvg} alt='discord link' to='https://discord.gg/vxpsRRX4jj'/>
-        <Icon icon={YoutubeSvg} alt='youtube link' to='https://www.youtube.com/channel/UCNXUmJLdKoe6cAqyaseVoyA'/>
+//        <Icon icon={DiscordSvg} alt='discord link' to=''/>
+//        <Icon icon={YoutubeSvg} alt='youtube link' to=''/>
         <Icon icon={TwitterSvg} alt='twitter link' to='https://twitter.com/MadHouseToken'/>
         <Icon icon={RedditSvg} alt='reddit link' to='https://www.reddit.com/r/MadHouseToken'/>
         <Icon icon={TelegramSvg} alt='telegram link' to='https://t.me/MadHouseToken'/>
