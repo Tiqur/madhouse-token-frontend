@@ -122,7 +122,7 @@ const HomePage = () => {
 
       <Section id='about' title='About'>
         <Text>The Madhouse Token is a unique token with a revolutionary system of Deflationomics which incorporates true burning of tokens from the supply and our proprietary liquidity protection protocol.</Text>
-        <Text>From our origins in the Markus Madhouse dogecoin YouTube community we have bound together our combined brain power and unique talent pool to develop a new era of optimised smart contracts.</Text>
+        <Text>From our origins as a small community we have bound together our combined brain power and unique talent pool to develop a new era of optimised smart contracts.</Text>
         <Text>The Madhouse Token is the first of it’s kind and will be a game changer in the crypto space. You will be able to share and spend it freely with no tax on transfers, the way it should be. Investors are only taxed when buying and selling to protect the liquidity pool and, most importantly, grow their own bags.
 With our custom Deflationomics Madhouse Tokens can, and most certainly will be, used as an everyday currency going forward.</Text>
       </Section>
