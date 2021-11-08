@@ -154,10 +154,6 @@ With our custom Deflationomics Madhouse Tokens can, and most certainly will be, 
 
       <Section title='Meet the team'>
         <div className={styles.team_container}>
-          <TeamCard name='Markus' title='Creator / Founder' image={MarkusWebp}>
-            <TeamSocial to='https://discord.com/users/144837105082826752' icon={DiscordSvg}/>
-            <TeamSocial to='https://www.linkedin.com/in/nick-munson-28591615a/' icon={LinkedinSvg}/>
-          </TeamCard>
           <TeamCard name='Benzolio' title='Creator / Smart Contract Developer' image={BenzolioWebp}>
             <TeamSocial to='https://discord.com/users/352999571833749504' icon={DiscordSvg}/>
             <TeamSocial to='https://twitter.com/benzolio' icon={TwitterSvg}/>
@@ -177,10 +173,6 @@ With our custom Deflationomics Madhouse Tokens can, and most certainly will be, 
           <TeamCard name='Madfoz' title='Telegram Coordinator / PR Manager' image={MadfozWebp}>
             <TeamSocial to='https://discord.com/users/491203044101586975' icon={DiscordSvg}/>
             <TeamSocial to='' icon={TwitterSvg}/>
-          </TeamCard>
-          <TeamCard name='Chichi' title='Social media manager' image={ChichiWebp}>
-            <TeamSocial to='https://discord.com/users/731087373177192451' icon={DiscordSvg}/>
-            <TeamSocial to='https://twitter.com/ImJustMe_3300' icon={TwitterSvg}/>
           </TeamCard>
         </div>
       </Section>
