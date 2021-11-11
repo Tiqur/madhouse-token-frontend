@@ -31,7 +31,7 @@ const Footer = () => {
       </div>
       <div className={styles.links}>
         <BrowserRouter>
-          <Text>© Copyright 2021 | Markus Madhouse</Text>
+          <Text>© Copyright 2021 | Madhouse Team</Text>
         </BrowserRouter>
       </div>
     </Section>
