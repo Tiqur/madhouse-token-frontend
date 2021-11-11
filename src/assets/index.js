@@ -7,6 +7,7 @@ export {ReactComponent as DropSvg} from './drop.svg';
 export {ReactComponent as MoneySvg} from './money.svg';
 export {ReactComponent as VaultSvg} from './vault.svg';
 export {ReactComponent as YoutubeSvg} from './youtube.svg';
+export {ReactComponent as NomicsSvg} from './Nomics.svg';
 
 export {default as TokenDistribution} from './token_distribution.webp';
 export {default as LogoSvg} from './MadHouse.svg';
