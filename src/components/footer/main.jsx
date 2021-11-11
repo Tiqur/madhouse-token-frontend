@@ -6,7 +6,8 @@ import {
   YoutubeSvg, 
   TelegramSvg,
   TwitterSvg,
-  RedditSvg
+  RedditSvg,
+  NomicsSvg
 } from '../../assets/index.js';
 
 const Icon = (props) => {
@@ -28,6 +29,7 @@ const Footer = () => {
         <Icon icon={TwitterSvg} alt='twitter link' to='https://twitter.com/MadHouseToken'/>
         <Icon icon={RedditSvg} alt='reddit link' to='https://www.reddit.com/r/MadHouseToken'/>
         <Icon icon={TelegramSvg} alt='telegram link' to='https://t.me/MadHouseToken'/>
+        <Icon icon={NomicsSvg} alt='nomics link' to='https://nomics.com/assets/mhtc-madhouse-token'/>
       </div>
       <div className={styles.links}>
         <BrowserRouter>
